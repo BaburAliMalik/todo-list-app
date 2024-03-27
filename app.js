@@ -3,8 +3,10 @@ function renderTodo() {
     for (let i = 0; i < arr.length; i++) {
         ol.innerHTML += `
         <li> ${arr[i]}
-        <button onclick="deleteTodo(${i})">delete</button>
-        <button onclick="editTodo(${i})">edit</button>
+        <button  class="delete" onclick="deleteTodo(${i})">
+        <i class="fa-solid fa-trash"></i></button>
+        <button class="edit" onclick="editTodo(${i})">
+        <i class="fa-solid fa-pen-to-square"></i></button>
         </li>
         `
     }
