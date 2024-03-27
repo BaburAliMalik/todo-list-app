@@ -12,6 +12,7 @@
     text-align: center;
     color: blue;
     font-weight: bold;
+    padding-top: 50px;
 }
 
 .todo{
@@ -38,4 +39,19 @@
     padding: 10px;
     border-radius: 10px;
     border: none;
+}
+
+
+#todo-btn{
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    /* border-radius:10px ; */
+}
+
+#todo{
+    padding: 10px;
+    /* background-color: orangered; */
+    /* color: white; */
 }
